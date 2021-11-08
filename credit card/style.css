@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #f54748;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 250px;
+  width: 400px;
+  background: #2e2e2e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-number {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  top: 90px;
+  left: 45px;
+}
+.card-number h2 {
+  font-size: 20px;
+  margin-top: 7px;
+  text-transform: uppercase;
+}
+
+.expire {
+  display: flex;
+
+  font-size: 10px;
+}
+
+.right {
+  position: absolute;
+  font-size: 40px;
+  left: 295px;
+  top: 100px;
+}
+
+.fa-wifi {
+  transform: rotate(90deg);
+}
